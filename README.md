@@ -3,7 +3,8 @@
 ## building the docker
 
 1. install docker on your system
-2. ```sh
+2. 
+```sh
 git clone git@github.com:eltorocorp/azpkg.git
 cd azpkg
 docker build .
