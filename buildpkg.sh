@@ -3,7 +3,7 @@
 # update the system
 yum update -y
 
-yum install -y git autoconf automake openssl-devel libtool xz-devel bzip2-devel zlib-devel patch
+yum install -y git make autoconf automake openssl-devel libtool xz-devel bzip2-devel zlib-devel patch
 
 git clone https://github.com/facebook/zstd.git
 cd zstd
